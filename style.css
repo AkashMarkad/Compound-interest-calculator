@@ -1,0 +1,40 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    margin: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    /* margin: auto; */
+    /* padding: auto; */
+    border-radius: 2rem;
+}
+.title{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 3rem;
+}
+.element{
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+}
+.card-header{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 2rem;
+}
+.center{
+    text-align: center;
+}
+.card-header{
+    background-color: rgb(218, 97, 97);
+}
+.form-group{
+    margin: 23px;
+    width: 100%;
+}
