@@ -10,4 +10,9 @@ r	=	interest rate
 n	=	number of times interest applied per time period
 t	=	number of time periods elapsed
 
-Link 
+
+# Compuond interest calculator  ✅ 
+This is the CI calculator Website 🔥   
+Happy Coding!  😊
+
+🔗   **Link** :- https://akashmarkad.github.io/Compound-interest-calculator/
