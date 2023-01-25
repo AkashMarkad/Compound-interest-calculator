@@ -77,7 +77,14 @@ function compoundInterest(){
   let n = document.getElementById('n').value;
   let t = document.getElementById('t').value;
   const compoundInterest = (p , t, r, n) => {
-    const A = p *(Math.pow((1 + ( r / n)), (n * t)));
+//     let base=1+(r/(100*c))
+// 		let power=n*c;
+// 		let a=Math.pow(base, power)
+// 		document.getElementById("ans").value=a*p
+//     const base = 1+(r/(100*t))
+//     const power = n*t
+    
+    const A = (Math.pow((1 + ( r /100*t)), (n * t)));
     const interest = A - p;
     document.getElementById('Ans').value = A ;
     return interest;
