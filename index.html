@@ -86,7 +86,7 @@ function compoundInterest(){
     
     const A = (Math.pow((1 + ( r /100*t)), (n * t)));
     const interest = A - p;
-    document.getElementById('Ans').value = A ;
+    document.getElementById('Ans').value = A*p ;
     return interest;
   };
   console.log(compoundInterest(p, r, n, t));
