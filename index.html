@@ -46,7 +46,7 @@
                   </div>
                   <br>
                   <div>
-                    <input type="text" name="" placeholder="A" class="form-control text-center w-100 m-auto center"
+                    <input type="text" name="" placeholder="Total Amount" class="form-control text-center w-100 m-auto center"
                     id="Ans">
                   </div>
                 </div>
@@ -75,19 +75,16 @@ function compoundInterest(){
   let p = document.getElementById('p').value;
   let r = document.getElementById('r').value;
   let n = document.getElementById('n').value;
-  let t = document.getElementById('t').value;
+  let c = document.getElementById('t').value;
   const compoundInterest = (p , t, r, n) => {
-//     let base=1+(r/(100*c))
-// 		let power=n*c;
-// 		let a=Math.pow(base, power)
-// 		document.getElementById("ans").value=a*p
-//     const base = 1+(r/(100*t))
-//     const power = n*t
-    
-    const A = (Math.pow((1 + ( r /100*t)), (n * t)));
-    const interest = A - p;
-    document.getElementById('Ans').value = A*p ;
-    return interest;
+    let base=1+(r/(100*c))
+		let power=n*c;
+		let a=Math.pow(base, power)
+		document.getElementById("Ans").value=a*p    
+//     const A = (Math.pow((1 + ( r /100*t)), (n * t)));
+//     const interest = A - p;
+//     document.getElementById('Ans').value = A*p ;
+    return A*p;
   };
   console.log(compoundInterest(p, r, n, t));
 }
